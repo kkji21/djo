@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-axkt43q-@@te35!uf@8uf_4i@pb=xmms!+jumr#1abibx&drp3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://kkji21.github.io/djo/' , 'http://127.0.0.1:8000/']
 
 
 # Application definition
